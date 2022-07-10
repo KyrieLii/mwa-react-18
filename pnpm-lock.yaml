@@ -5,6 +5,7 @@ specifiers:
   '@modern-js/app-tools': ^1.0.0
   '@modern-js/runtime': ^1.0.0
   '@modern-js/tsconfig': ^1.0.0
+  '@ngneat/falso': ^6.0.3
   '@types/node': ^14
   '@types/react': ^18
   '@types/react-dom': ^18
@@ -19,6 +20,7 @@ specifiers:
 dependencies:
   '@arco-design/web-react': 2.37.0_08741bd84ef3e6fa073678331eea05f2
   '@modern-js/runtime': 1.3.4_bc6f50cf0b6549c5ea71dd58c818affc
+  '@ngneat/falso': 6.0.3
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -2159,6 +2161,13 @@ packages:
       - webpack-dev-server
       - webpack-hot-middleware
       - webpack-plugin-serve
+
+  /@ngneat/falso/6.0.3:
+    resolution: {integrity: sha512-FXHlRaAILIOk5h5PH2Fs2WDifbFfPK4ZNe9VrMna6DKOmbOZYczg+ixsY90+ZmnZ4xgEbT3P08Z/CWRIP6gM2w==}
+    dependencies:
+      seedrandom: 3.0.5
+      uuid: 8.3.2
+    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -7042,6 +7051,10 @@ packages:
       compute-scroll-into-view: 1.0.11
     dev: false
 
+  /seedrandom/3.0.5:
+    resolution: {integrity: sha1-VO3IXJUiJSWwx6b2s1Q9jgs6oKc=}
+    dev: false
+
   /semver-compare/1.0.0:
     resolution: {integrity: sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==}
     dev: true
@@ -7728,6 +7741,11 @@ packages:
 
   /utila/0.4.0:
     resolution: {integrity: sha512-Z0DbgELS9/L/75wZbro8xAnT50pBVFQZ+hUEueGDU5FN51YSCYM+jdxsfCiHjwNP/4LCDD0i/graKpeBnOXKRA==}
+
+  /uuid/8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
+    dev: false
 
   /v8-compile-cache/2.3.0:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
